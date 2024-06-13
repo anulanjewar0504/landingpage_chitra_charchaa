@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+footer{
+    background-color:#fdfbf7;
+}
+.footercontainer{
+    width: 100%;
+    padding: 10px 30px 20px;
+}
+.socialicons{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px  45px;
+}
+.socialicons .icon a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: aliceblue;
+    margin: 10px;
+    border-radius: 10%;
+}
+
+.socialicons a i{
+    font-size: 1em;
+    color:black;
+    opacity: 0.9;
+}
+.socialicons .icon a:hover{
+    background-color:#d8ae5f;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.352);
+    transition: 0.5s;
+}
+.footernav{
+    margin: 30px;
+}
+.footernav ul{
+    display: flex;
+    justify-content: start;
+    list-style-type: none;
+}
+.footernav ul li h4{
+    color: #000000;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1em;
+    opacity: 0.5;
+}
+.footernav ul li h4:hover{
+    transition: 0.5s;
+    color: #d8ae5f;
+    opacity: 1;
+}
+.bottom{
+    background-color:#d8ae5f;
+    padding: 20px;
+    text-align: center;
+}
+.chitra_charchaa{
+    
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+
+}
+
+@media(max-width: 700px){
+    .footernav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footernav ui li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
